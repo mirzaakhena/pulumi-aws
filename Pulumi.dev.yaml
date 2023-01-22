@@ -1,0 +1,13 @@
+config:
+  aws:region: us-east-1
+  setup-vpc:data:
+    active: true
+    vpc_cidr: 10.200.0.0/16
+    subnet_public_cidr: 10.200.0.0/24
+    subnet_private_cidr: 10.200.1.0/24
+    anywhere_cidr: 0.0.0.0/0
+    availability_zone1: us-east-1a
+    availability_zone2: us-east-1b
+    instance_type: t2.micro
+    ami: ami-0b5eea76982371e91
+    key_pair_material: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCQk+42lVvrUyN22oEZjePgK72XARqzl2E//oyzRXqAO+2DLcURgMdc45g8XvZSYwNE5IWQRbOfQ97u/sKtUAjnIUE0dSS06DmZhVeVJUXbGJ2sIYX0mL44wy9uDA/AkyZEwrn/qWZ3+PKhSqRqLR4y5f96LJbAMUEhExyg2eoRRlyoo7gxeIBLYWPL8aWq3PLJcnjb3XhYHCvVfHeLu+gEFNFYz3lGnfkseKHIrvEBN4dQDy19+bwIsXMww/seP2VKuu+V9UEoi+BTiKtM5boL3DO2oumr7sEKfaIqKh0q6bgM5mR9OiprnPjnBFB1MNJsjA+hpg9CxqFqOgPJfm0qhokMl+d/tAmfrgAihMn7AqWmVLTfQ/daacZ5ZY1Oq1Q5GG4TPCbwCyJmKauPC8DLdNIRgoCaxsJOMo1LEd3sQJ3C1EX9IRNXhHVyUPzhygIQyYbliPBgscUJsNU4ho2GGo5nalHDoJUrNj6N1TPJYXOI4DjsJeOd39E0EDqBddE= mirza@Mirzas-MacBook-Pro.local
