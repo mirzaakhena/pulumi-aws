@@ -46,15 +46,11 @@ func GetUserDataBase64() pulumi.StringPtrInput {
 
 }
 
-func mainX() {
-	fmt.Println(string(GetUserDataBytes("s")))
-}
-
 func main() {
-	setupVPC03()
+	//sample003WithASG()
 }
 
-func setupVPC03() {
+func sample003WithASG() {
 
 	pulumi.Run(func(ctx *pulumi.Context) error {
 
@@ -163,7 +159,7 @@ func setupVPC03() {
 	})
 }
 
-func setupVPC01() {
+func sample001WithEC2() {
 
 	pulumi.Run(func(ctx *pulumi.Context) error {
 
@@ -269,7 +265,7 @@ func setupVPC01() {
 	})
 }
 
-func setupVPC02() {
+func sample002WithALB() {
 
 	pulumi.Run(func(ctx *pulumi.Context) error {
 
